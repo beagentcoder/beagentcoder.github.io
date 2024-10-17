@@ -5,7 +5,7 @@ async function fetchProjects() {
     const projectGrid = document.getElementById('project-grid'); // Target container
 
     try {
-        const response = await fetch('http://localhost:3200/api/git-repo/?username=beagentcoder');
+        const response = await fetch('https://git-repo-uxn5.vercel.app/api/git-repo/?username=beagentcoder');
         if (!response.ok) throw new Error('Failed to fetch projects');
 
         const projects = await response.json(); // Convert response to JSON
