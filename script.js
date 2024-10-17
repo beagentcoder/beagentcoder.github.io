@@ -24,7 +24,7 @@ async function fetchProjects() {
                 </div>
                 <div class="project-title">${project.name}</div>
                 <p>${project.description || 'No description available'}</p>
-                <a href="${project.url}" target="_blank">View on GitHub</a>
+                <a href="${project.url}" target="_blank">↗ View on GitHub</a>
             `;
 
             // Append each project item to the grid

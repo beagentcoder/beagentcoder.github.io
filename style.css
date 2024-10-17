@@ -82,6 +82,14 @@ h2 {
     width: 250px;
     text-align: left;
 }
+.project-item a{
+    text-decoration: none;
+    color: orange;
+}
+.project-item p{
+    height: 3rem;
+    color: blue;
+}
 .project-image {
     width: 80%;
     height: 150px;
@@ -100,9 +108,11 @@ h2 {
     display: flex;
     align-items: center;
     font-size: 1.1rem;
+    color: white;
 }
 .project-title::before {
-    content: '↗';
+    /* content: '↗'; */
+    
     margin-right: 5px;
     font-size: 1.2rem;
 }
