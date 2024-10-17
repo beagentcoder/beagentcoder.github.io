@@ -78,11 +78,12 @@ h2 {
     gap: 20px;
 }
 .project-item {
+    margin-top: 5rem;
     width: 250px;
     text-align: left;
 }
 .project-image {
-    width: 100%;
+    width: 80%;
     height: 150px;
     border-radius: 20px 20px 0 0;
     overflow: hidden;
