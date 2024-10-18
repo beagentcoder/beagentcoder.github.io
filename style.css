@@ -84,11 +84,11 @@ h2 {
 }
 .project-item a{
     text-decoration: none;
-    color: orange;
+    color: #8cf16a;
 }
 .project-item p{
     height: 3rem;
-    color: blue;
+    color: #FFFBE6;
 }
 .project-image {
     width: 80%;
@@ -108,7 +108,7 @@ h2 {
     display: flex;
     align-items: center;
     font-size: 1.1rem;
-    color: white;
+    color: #FCCD2A;
 }
 .project-title::before {
     /* content: '↗'; */
@@ -119,8 +119,8 @@ h2 {
 .contact-grid {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 20px;
-    max-width: 600px;
+    gap: 16rem;
+    max-width: 50rem;
     margin: 0 auto;
     text-align: left;
 }
@@ -175,4 +175,24 @@ h2 {
     .contact-grid {
         grid-template-columns: repeat(3, 1fr);
     }
+}
+
+.download-resume {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.download-resume button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.download-resume button:hover {
+    background-color: #45a049;
 }
